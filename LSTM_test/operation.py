@@ -45,7 +45,8 @@ def load_data(path_dir, folder_list):
         np.load(path_dir + '/' + folder_list[6]),
         np.load(path_dir + '/' + folder_list[7]),
         np.load(path_dir + '/' + folder_list[8]),
-        np.load(path_dir + '/' + folder_list[9])
+        np.load(path_dir + '/' + folder_list[9]),
+        np.load(path_dir + '/' + folder_list[10])
     ], axis=0)
     return data
 
