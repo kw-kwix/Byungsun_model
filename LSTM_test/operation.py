@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from tensorflow.keras.utils import to_categorical
+from keras.utils import to_categorical
 
 
 def get_points_angle(landmark_subset):
